@@ -243,5 +243,24 @@ button{
   .rabbitTable {
     padding: 0;
     margin: 0;
+    width: 300px !important;
+    height: 300px !important;
   }
+  #change-table{
+    display: none !important;
+  }
+  #refresh-page {
+    right: 5px;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 30px;
+
+
+  }
+  .box{
+    width: 30px;
+    height: 30px;
+
+  }
+
 }
