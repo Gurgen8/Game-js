@@ -51,11 +51,13 @@ header {
 .house {
   background-image: url("../img/house.png");
   background-size: cover;
+  transition: all 0.3s;
 }
 
 .fence{
   background-image: url('../img/fence.png');
   background-size: cover;
+  
 }
 
 /* wolves */
@@ -65,11 +67,13 @@ header {
   background-size: cover;
   background-position: center;
   z-index: 9999;
+  transition:all 0.05s;
 }
 
 .trap{
   background-image: url('../img/star.jpg');
   background-size: cover;
+  transition: all 0.3s;
 }
 
 .rabbit {
@@ -77,6 +81,8 @@ header {
   background-position: center;
   background-image: url("../img/rabbit.png");
   background-size: cover;
+  transition: all 0.05s;
+  
 }
 .rabbit:last-child {
   display: none !important;
