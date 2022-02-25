@@ -88,10 +88,7 @@ function updateWolwesPos() {
 
   wolves.position.map(w => {
 
-    if (w[0] >= table.rowsCols) {
-      w[0] = w[0] - 2
-    }
-    else if (rabbit.position[0][0] < w[0]) {
+   if (rabbit.position[0][0] < w[0]) {
 
       return w[0] = w[0] - 1
 
@@ -147,6 +144,12 @@ function updatePositions() {
     rabbit.position[0][0] = 0
   } else if (rabbit.position[0][0] <= 0) {
     rabbit.position[0][0] = table.rowsCols
+  }else if (rabbit.position[0][0] === table.rowsCols) {
+    wolves.position.map(w => {
+      w[0] = w[0] - 2
+    
+    })
+
   }
 
 
