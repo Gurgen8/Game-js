@@ -325,7 +325,7 @@ function randomhouse() {
   }
   /// correcet position  house
   box.map((b, item) => {
-    if (b.classList.value === "box fence" || b.classList.value === 'box rabbit' || b.classList.value === 'box wolves') {
+    if (b.classList.value === "box fence" || b.classList.value === 'box rabbit' || b.classList.value === 'box wolves' || b.classList.value === "box trap" ) {
       null
     } else {
       arr.push(item)
